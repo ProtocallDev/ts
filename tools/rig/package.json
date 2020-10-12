@@ -39,7 +39,7 @@
     "eslint-plugin-unicorn": "~21.0.0",
     "eson-parser": "~0.0.5",
     "find-up": "~5.0.0",
-    "jest": "~26.4.2",
+    "jest": "~26.5.3",
     "js-yaml": "^3.14.0",
     "lodash": "^4.17.15",
     "prettier": "~2.1.1",
