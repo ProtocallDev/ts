@@ -12,7 +12,7 @@ export interface Optional {
  * @see sparseType
  */
 export const optional = <RT extends t.Mixed>(rt: RT, name?: string) => {
-  const unionType = union([rt, nullType, undefinedType], name || rt.name + '?')
+  const unionType = union([rt, undefinedType], name || rt.name + '?')
   return Object.assign(unionType, {optional: true} as Optional)
 }
 
